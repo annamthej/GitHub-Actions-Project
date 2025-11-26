@@ -2,7 +2,7 @@ name: Hello World Workflow
 on:
     pull_request:
         branches:
-        - main
+        - master
 jobs:
     hello_world:
      runs-on: ubuntu-latest
